@@ -109,7 +109,16 @@ p {
 .content p {
   font-size: 14px;
 }
-
+.logo {
+  max-width: 150px;
+}
+nav ul {
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
